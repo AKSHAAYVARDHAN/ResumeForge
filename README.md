@@ -1,4 +1,4 @@
-# ResumeForge AI 🚀
+# ResumeForge AI 
 
 > **Craft Better Resumes with AI** — A production-grade AI-powered Resume Analyzer SaaS
 
@@ -8,15 +8,15 @@
 
 ResumeForge AI analyzes **any resume from any industry** using OpenAI GPT-4o and returns:
 
-- 🎯 **ATS Score** (0–100) with animated circular indicator
-- 🌐 **Domain Detection** (Technology, Healthcare, Finance, Hospitality, etc.)
-- 💪 **Resume Strength** (Weak / Moderate / Strong)
-- 📊 **Experience Level** (Beginner / Intermediate / Advanced)
-- ✅ **Extracted Skills** (dynamically detected)
-- ❌ **Missing Skills** (domain-aware gap analysis)
-- 🎭 **Role Fit Suggestions** (with match percentages)
-- 📋 **Section Analysis** (Summary, Experience, Education, Skills, Projects)
-- 💡 **Actionable Improvements** (specific, numbered suggestions)
+-  **ATS Score** (0–100) with animated circular indicator
+-  **Domain Detection** (Technology, Healthcare, Finance, Hospitality, etc.)
+-  **Resume Strength** (Weak / Moderate / Strong)
+-  **Experience Level** (Beginner / Intermediate / Advanced)
+-  **Extracted Skills** (dynamically detected)
+-  **Missing Skills** (domain-aware gap analysis)
+-  **Role Fit Suggestions** (with match percentages)
+-  **Section Analysis** (Summary, Experience, Education, Skills, Projects)
+-  **Actionable Improvements** (specific, numbered suggestions)
 
 ---
 
@@ -57,14 +57,6 @@ copy .env.example .env
 python app.py
 # → http://localhost:5000
 ```
-
-### 2. Firebase (Optional — for user accounts & history)
-
-1. Go to [Firebase Console](https://console.firebase.google.com)
-2. Create a project → Enable **Authentication** (Email/Password)
-3. Enable **Firestore Database**
-4. Download **Service Account JSON** → save as `backend/firebase-service-account.json`
-5. Get web config → add to `frontend/.env`
 
 ### 3. Frontend
 
@@ -121,8 +113,8 @@ VITE_API_BASE_URL=http://localhost:5000
 
 | Mode | Auth | Data Storage | History |
 |---|---|---|---|
-| Signed In | Firebase Email/Password | Firestore | ✅ Permanent |
-| Guest | None | localStorage | ⚡ Session only |
+| Signed In | Firebase Email/Password | Firestore | Permanent |
+| Guest | None | localStorage | Session only |
 
 ---
 
